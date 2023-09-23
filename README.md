@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Kaiburr Task 4: WEB UI Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the frontend part of Kaiburr Task 4, created using React. It complements the REST API developed using Spring Boot (Kaiburr Task 1) by providing a user-friendly web interface to interact with the server data.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [How the Task Is Made](#how-the-task-is-made)
+- [Prerequisites](#prerequisites)
+- [How to Run the Application](#how-to-run-the-application)
+- [Screenshots](#screenshots)
 
-### `npm start`
+## Key Features
+- Create new servers with specific details.
+- Delete individual servers or all servers.
+- View a list of servers with their details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React: A popular JavaScript library for building user interfaces.
+- JavaScript/ES6: The primary programming language for React development.
+- Material-UI: A popular UI component library for React applications, similar to Angular Material.
+- Bootstrap: A responsive and customizable CSS framework.
+- RESTful API: Communicates with the backend using RESTful web services.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How the Task Is Made
 
-### `npm test`
+The task consists of creating a web-based frontend using React that interacts with a REST API implemented using Spring Boot. The frontend provides functionality to view a list of servers, create new servers, and delete servers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application uses React components to separate different parts of the user interface:
 
-### `npm run build`
+- **Create Server Component**: Allows users to create a new server by providing server details.
+- **Server List Component**: Displays a list of servers, and users can delete individual servers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The frontend communicates with the backend using HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on the server data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
+- Node.js and npm (Node Package Manager)
 
-### `npm run eject`
+## Project Setup
+Before running the application, make sure you have the following:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Node.js and npm installed. You can download them from [here](https://nodejs.org/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### How to Run the Application
+Follow these steps to run the frontend of the Kaiburr Task 4:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository to your local machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    git clone <repository-url>
 
-## Learn More
+2. Navigate to the project folder:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    cd kaiburr-task-4
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install the project dependencies:
 
-### Code Splitting
+    ```bash
+    npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start the Angular development server:
 
-### Analyzing the Bundle Size
+    ```bash
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open a web browser and access the application at 
+    ```bash
+    http://localhost:3000/
 
-### Making a Progressive Web App
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Create Server Inserting Data
+![App Screenshot](https://drive.google.com/uc?id=1mSZ3g0Jxrzsdpf6JJTZ0xM3qpQ4iSwd3)
 
-### Advanced Configuration
+### Server List after Creating a Server
+![App Screenshot](https://drive.google.com/uc?id=1Kovs9xAFAaXarEBZsep8e6rUasY5GOzq)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Server_API.server: MongoDB Database Collection after Creating a Server
+![App Screenshot](https://drive.google.com/uc?id=1tb29rKndXcGEezE97Wws5MoeJ8axZLri)
 
-### Deployment
+### Server Creation is reflected in http://localhost:8080/api/servers
+![App Screenshot](https://drive.google.com/uc?id=1VFNDVzvOwT7U7QrgzmTROY-2Z3v1W1OM)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Web UI FrontEnd after Creating multiple servers
+![App Screenshot](https://drive.google.com/uc?id=1DQ-89MVbj3MNQHFL1a6ltul6aIFHHdiu)
+![App Screenshot](https://drive.google.com/uc?id=1MzJ_jzNPzTYU7Cmt_aHEgceL4TBxKMEX)
 
-### `npm run build` fails to minify
+### Deleting a Server
+![App Screenshot](https://drive.google.com/uc?id=1qaz7087hdbaBGihcCeUDLtb_k2CW4-lS)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Server List after deleting a server
+![App Screenshot](https://drive.google.com/uc?id=1hOhRx_HwQaDEKWat7xEP4DLf5xXHq7CH)
+
+### Server_API.server: MongoDB Database Collection after Deleting a Server
+![App Screenshot](https://drive.google.com/uc?id=1uUucOCFHmF4rGkQoOYNqK30_rCj9gWfH)
+
