@@ -54,7 +54,7 @@ Follow these steps to run the frontend of the Kaiburr Task 4:
 2. Navigate to the project folder:
 
     ```bash
-    cd kaiburr-task-4
+    cd Task-2-Web-UI-Front-End
 
 3. Install the project dependencies:
 
