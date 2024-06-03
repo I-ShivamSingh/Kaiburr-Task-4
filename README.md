@@ -1,4 +1,4 @@
-# Task 2: WEB UI Frontend
+# Task 2: ServerOps
 
 This project is the frontend part of Task 1, created using React. It complements the REST API developed using Spring Boot (Task 1) by providing a user-friendly web interface to interact with the server data.
 
@@ -54,7 +54,7 @@ Follow these steps to run the frontend of the Kaiburr Task 4:
 2. Navigate to the project folder:
 
     ```bash
-    cd Task-2-Web-UI-Front-End
+    cd Task-2-ServerOps
 
 3. Install the project dependencies:
 
