@@ -19,8 +19,6 @@ This project is the frontend part of Task 1, created using React. It complements
 ## Technologies Used
 - React: A popular JavaScript library for building user interfaces.
 - JavaScript/ES6: The primary programming language for React development.
-- Material-UI: A popular UI component library for React applications, similar to Angular Material.
-- Bootstrap: A responsive and customizable CSS framework.
 - RESTful API: Communicates with the backend using RESTful web services.
 
 ## How the Task Is Made
@@ -84,7 +82,7 @@ Follow these steps to run the frontend of the Kaiburr Task 4:
 ### Server Creation is reflected in http://localhost:8081/api/servers
 ![App Screenshot](https://drive.google.com/uc?id=1VFNDVzvOwT7U7QrgzmTROY-2Z3v1W1OM)
 
-### Web UI FrontEnd after Creating multiple servers
+### Frontend after Creating multiple servers
 ![App Screenshot](https://drive.google.com/uc?id=1DQ-89MVbj3MNQHFL1a6ltul6aIFHHdiu)
 ![App Screenshot](https://drive.google.com/uc?id=1MzJ_jzNPzTYU7Cmt_aHEgceL4TBxKMEX)
 
